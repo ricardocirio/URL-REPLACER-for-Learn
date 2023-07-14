@@ -17,9 +17,9 @@ import sys
 requests.packages.urllib3.disable_warnings()
 
 def get_inputs():
-    parser = argparse.ArgumentParser(description='Archive downloader')
+    parser = argparse.ArgumentParser(description='URL Replacer for Learn')
     parser.add_argument('-s', '--site', help='Base URL to process, eg test.blackboard.com', required=True)
-    parser.add_argument('-f', '--file', help='File containing course ids, one per each line. Not pk1s.',
+    parser.add_argument('-f', '--file', help='File containing course ids, one per line',
                         required=True)
     parser.add_argument('-t', '--title', help='Title of Link content item that will be updated',
                         required=True)
