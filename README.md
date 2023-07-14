@@ -3,7 +3,7 @@
 Simple script to replace Link URLs from Blackboard Learn courses.
 
 ```
-usage: learn-url-replacer.py [-h] -s SITE -f FILE -t TITLE -c CURRENT -r REPLACEMENT
+usage: url-replacer.py [-h] -s SITE -f FILE -t TITLE -c CURRENT -r REPLACEMENT
 
 options:
   -h,               --help                      Shows help message
